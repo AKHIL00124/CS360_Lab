@@ -1,37 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    </body>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
     <style> 
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        .Top{
+          background-color: rgb(68, 112, 187);
+          height: 65px;
+        }
+        .header {
+          background-color: rgb(85, 159, 188);
+          height: 30px;
+          width: 100px;
+          border: none;
+          margin: 15px;
+          padding: 0;
+          margin-left: 30px;
+          border-radius: 30px;
+          font-size: 15px;
+          font-weight: bold;
+        }
+        .Head-Name{
+          font-size: 30px;
+          font-family: Arial;
+          font-weight: bold;
+          text-align: center;
+          line-height: 2;
+          margin-top: 350px;
+        }
         body {
-            margin: 10px 0px 10px 0px; 
             background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-portfolio-memphis-playful-abstract-pink-picture-image_1347354.jpg");
-            background-repeat:no-repeat;
             background-size:cover;
+            /* background-repeat: repeat-x; */
             font-family: Arial, Helvetica, sans-serif;
         }
+        .Footer{
+          margin-left: 30px;
+          margin-top: 600px;
+          text-align: center;
+        }
+
     </style>
-
 </head>
+<!-- Body starts here -->
 <body>
+  
+  <section class="Top">
+    <header>
+      <button class="header">
+        <a href="index.html">Home</a>
+      </button>
+      <button class="header">  
+        <a href="Portfolio.html">Portfolio</a>
+      </button>
+      <button class="header">
+        <a href="About.html">About</a>
+      </button>
+      <button class="header"> Contact </button>
+      <button class="header"> Sign In </button>
+      <button class="header"> Sign Up </button>    
+    </header>
+  </section>
+  
 
-
-
-<div class="header">
-  <a href="#default" class="logo">CompanyLogo</a>
-  <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
+<div class="Head-Name">
+  <p> Welcome to my Portfolio website <br> Please use the links above to explore. </p>
 </div>
 
-    
+<footer class="Footer">
+  <div>
+    Privacy Policy
+  </div>
+  <div>
+    Terms and Conditions
+  </div>
+  <div>
+    Cookie Policy
+  </div>
+</footer>
+
 </body>
 
 </html>

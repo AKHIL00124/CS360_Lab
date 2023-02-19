@@ -1,0 +1,52 @@
+.current{
+    background-color: rgb(157, 158, 95);
+    color: azure;
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin: 15px;
+    padding: 0;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .Top{
+    background-color: rgb(72, 109, 85);
+    height: 65px;
+  }
+  .header {
+    background-color: rgb(157, 158, 95);
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin: 15px;
+    padding: 0;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .Head-Name{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+    margin-top: 350px;
+  }
+  body {
+      background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-portfolio-memphis-playful-abstract-pink-picture-image_1347354.jpg");
+      background-size:cover;
+      /* background-repeat: repeat-x; */
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .Footer{
+    margin-left: 30px;
+    margin-top: 600px;
+    text-align: center;
+  }

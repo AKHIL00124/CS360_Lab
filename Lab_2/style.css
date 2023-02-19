@@ -32,12 +32,15 @@
     font-weight: bold;
   }
   .Head-Name{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
     font-size: 30px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
     line-height: 2;
-    margin-top: 350px;
+    margin-top: 250px;
   }
   body {
       background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-portfolio-memphis-playful-abstract-pink-picture-image_1347354.jpg");

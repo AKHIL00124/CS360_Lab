@@ -19,7 +19,7 @@
     background-color: rgb(72, 109, 85);
     height: 65px;
   }
-  .sign-button{
+  input[type=submit]{
     background-color: rgb(157, 158, 95);
     height: 30px;
     width: 100px;
